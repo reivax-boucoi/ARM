@@ -11,6 +11,7 @@ INCOMING_COLOR=31,179,235
 MESSAGE_WARNING_COLOR=255,174,0
 OUTGOING_COLOR=238,238,238
 RESOLVED_COLOR=108,210,17
+UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
 cdataBorder=0,254,254
 cdataText=255,255,255
 commentBorder=75,113,227
