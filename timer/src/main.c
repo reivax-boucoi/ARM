@@ -60,10 +60,10 @@ int main(void){
 	while (1) {
 		if(TIM1->CNT < 32768){
 			GPIOC->BSRR|=GPIO_PIN_13;
-			//	GPIOA->BSRR|=GPIO_PIN_8;
+				GPIOA->BSRR|=GPIO_PIN_8;
 		}else{
 			GPIOC->BRR|=GPIO_PIN_13;
-			//	GPIOA->BRR|=GPIO_PIN_8;
+				GPIOA->BRR|=GPIO_PIN_8;
 		}
 	}
 }

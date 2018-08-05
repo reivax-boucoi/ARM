@@ -7340,3 +7340,13 @@ Caused by: java.security.InvalidAlgorithmParameterException: the trustAnchors pa
 	at java.base/java.security.cert.PKIXBuilderParameters.<init>(PKIXBuilderParameters.java:104)
 	at java.base/sun.security.validator.PKIXValidator.<init>(PKIXValidator.java:86)
 	... 22 more
+!SESSION 2018-08-05 08:40:11.472 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY fr.ac6.mcu.ide 1 1 2018-08-05 08:42:13.497
+!MESSAGE Started RMI Server, listening on port 21112
