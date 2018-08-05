@@ -1,0 +1,17 @@
+22:23:42 **** Incremental Build of configuration Release for project tes_mx_f103 ****
+make all 
+Building target: tes_mx_f103.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "tes_mx_f103.elf" @"objects.list"   -lm
+Finished building target: tes_mx_f103.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "tes_mx_f103.elf" "tes_mx_f103.bin"
+arm-none-eabi-size "tes_mx_f103.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4304	     12	   1636	   5952	   1740	tes_mx_f103.elf
+ 
+
+22:23:43 Build Finished (took 1s.752ms)
+
