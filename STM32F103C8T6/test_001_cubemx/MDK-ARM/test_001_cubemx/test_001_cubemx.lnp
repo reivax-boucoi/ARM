@@ -1,32 +1,24 @@
 --cpu Cortex-M3
 "test_001_cubemx\system_stm32f1xx.o"
 "test_001_cubemx\startup_stm32f103xb.o"
-"test_001_cubemx\usb.o"
 "test_001_cubemx\main.o"
 "test_001_cubemx\stm32f1xx_hal_msp.o"
-"test_001_cubemx\usart.o"
 "test_001_cubemx\gpio.o"
 "test_001_cubemx\stm32f1xx_it.o"
-"test_001_cubemx\i2c.o"
 "test_001_cubemx\tim.o"
 "test_001_cubemx\stm32f1xx_hal_tim_ex.o"
 "test_001_cubemx\stm32f1xx_hal_gpio.o"
-"test_001_cubemx\stm32f1xx_hal_pcd_ex.o"
 "test_001_cubemx\stm32f1xx_hal_flash_ex.o"
 "test_001_cubemx\stm32f1xx_hal_dma.o"
-"test_001_cubemx\stm32f1xx_hal_pcd.o"
 "test_001_cubemx\stm32f1xx_hal_rcc.o"
 "test_001_cubemx\stm32f1xx_hal_flash.o"
-"test_001_cubemx\stm32f1xx_ll_usb.o"
-"test_001_cubemx\stm32f1xx_hal_uart.o"
 "test_001_cubemx\stm32f1xx_hal_rcc_ex.o"
 "test_001_cubemx\stm32f1xx_hal_tim.o"
 "test_001_cubemx\stm32f1xx_hal_cortex.o"
-"test_001_cubemx\stm32f1xx_hal_i2c.o"
 "test_001_cubemx\stm32f1xx_hal_gpio_ex.o"
 "test_001_cubemx\stm32f1xx_hal_pwr.o"
 "test_001_cubemx\stm32f1xx_hal.o"
 --library_type=microlib --strict --scatter "test_001_cubemx\test_001_cubemx.sct"
---diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "test_001_cubemx.map" -o test_001_cubemx\test_001_cubemx.axf

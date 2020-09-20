@@ -10,7 +10,7 @@
   * inserted by the user or by software development tools
   * are owned by their respective copyright owners.
   *
-  * COPYRIGHT(c) 2017 STMicroelectronics
+  * COPYRIGHT(c) 2020 STMicroelectronics
   *
   * Redistribution and use in source and binary forms, with or without modification,
   * are permitted provided that the following conditions are met:
@@ -72,9 +72,9 @@ void HAL_MspInit(void)
   /* SysTick_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(SysTick_IRQn, 0, 0);
 
-    /**NOJTAG: JTAG-DP Disabled and SW-DP Enabled 
+    /**DISABLE: JTAG-DP Disabled and SW-DP Disabled 
     */
-  __HAL_AFIO_REMAP_SWJ_NOJTAG();
+  __HAL_AFIO_REMAP_SWJ_DISABLE();
 
   /* USER CODE BEGIN MspInit 1 */
 

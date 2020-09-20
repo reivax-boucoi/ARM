@@ -9,7 +9,7 @@
   * inserted by the user or by software development tools
   * are owned by their respective copyright owners.
   *
-  * COPYRIGHT(c) 2017 STMicroelectronics
+  * COPYRIGHT(c) 2020 STMicroelectronics
   *
   * Redistribution and use in source and binary forms, with or without modification,
   * are permitted provided that the following conditions are met:
@@ -46,8 +46,10 @@
 
 /* Private define ------------------------------------------------------------*/
 
-#define TimerOutput_Pin GPIO_PIN_0
-#define TimerOutput_GPIO_Port GPIOA
+#define MYLEDPIN_Pin GPIO_PIN_13
+#define MYLEDPIN_GPIO_Port GPIOC
+#define MYPWMPIN_Pin GPIO_PIN_0
+#define MYPWMPIN_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
